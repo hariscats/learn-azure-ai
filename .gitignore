@@ -129,6 +129,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+01-azure-ai-fundamentals/rest-client/*.env
+01-azure-ai-fundamentals/sdk-client/*.env
 
 # Spyder project settings
 .spyderproject
