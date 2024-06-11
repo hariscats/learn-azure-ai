@@ -1,8 +1,6 @@
-# azure-ai-engineer-cert
+# Learn Azure AI
 
-# Azure AI Engineer Certification
-
-This repository contains notes, exercises, and resources for preparing for the Azure AI Engineer certification. The content is organized by major topic areas as outlined in the certification exam guide.
+This repository contains notes, exercises, and resources for preparing for the Azure AI Engineer certification and learning about AI in the context of the Azure ecosystem. The content is organized by major topic areas as outlined in the certification exam guide.
 
 ## Structure
 
