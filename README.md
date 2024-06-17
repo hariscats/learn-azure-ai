@@ -13,4 +13,3 @@ This repository contains notes, exercises, and resources for preparing for the A
 
 Each directory may contain:
 - `notes.md`: Summarized notes and key points.
-- `exercises/`: Hands-on exercises to reinforce learning.
