@@ -1,4 +1,4 @@
-# Azure AI Search Solution Provisioning and Flask Application
+# Azure AI Search Solution Provisioning and Flask App
 
 This directory contains a script to provision the necessary Azure resources for an Azure AI Search solution, as well as a Flask app that interacts with these resources to perform search queries and display results.
 
