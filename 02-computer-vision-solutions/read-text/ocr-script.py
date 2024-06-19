@@ -4,9 +4,6 @@ import time
 from PIL import Image, ImageDraw
 from matplotlib import pyplot as plt
 
-# Import namespaces
-
-
 def main():
 
     global cv_client
@@ -15,10 +12,7 @@ def main():
         # Get Configuration Settings
         load_dotenv()
         ai_endpoint = os.getenv('AI_SERVICE_ENDPOINT')
-        ai_key = os.getenv('AI_SERVICE_KEY')
-
-        # Authenticate Azure AI Vision client
-        
+        ai_key = os.getenv('AI_SERVICE_KEY')        
 
         # Menu for text reading functions
         print('\n1: Use Read API for image (sampletext.jpeg)\n2: Read handwriting (Note.jpg)\nAny other key to quit\n')
@@ -38,7 +32,7 @@ def GetTextRead(image_file):
     with open(image_file, "rb") as f:
             image_data = f.read()
 
-    # Use Analyze image function to read text in image
+    # TODO: Use Analyze image function to read text in image
     
     
 
