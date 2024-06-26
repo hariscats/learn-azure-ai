@@ -29,6 +29,11 @@ if(string.IsNullOrEmpty(oaiEndpoint) || string.IsNullOrEmpty(oaiKey) || string.I
  // System message to provide context to the model
  string systemMessage = "I am a hiking enthusiast named Forest who helps people discover hikes in their area. If no area is specified, I will default to near Rainier National Park. I will then provide three suggestions for nearby hikes that vary in length. I will also share an interesting fact about the local nature on the hikes when making a recommendation.";
 
+// Initialize messages list
+ var messagesList = new List<ChatRequestMessage>()
+ {
+     new ChatRequestSystemMessage(systemMessage),
+ };
 
 
 do {
@@ -46,24 +51,30 @@ do {
 
     // Add code to send request...
     // Build completion options object
+    messagesList.Add(new ChatRequestUserMessage(inputText));
+
     ChatCompletionsOptions chatCompletionsOptions = new ChatCompletionsOptions()
     {
-     Messages =
-     {
-         new ChatRequestSystemMessage(systemMessage),
-         new ChatRequestUserMessage(inputText),
-     },
-     MaxTokens = 400,
-     Temperature = 0.7f,
-     DeploymentName = oaiDeploymentName
+        MaxTokens = 1200,
+        Temperature = 0.7f,
+        DeploymentName = oaiDeploymentName
     };
 
- // Send request to Azure OpenAI model
- ChatCompletions response = client.GetChatCompletions(chatCompletionsOptions);
+    // Add messages to the completion options
+    foreach (ChatRequestMessage chatMessage in messagesList)
+    {
+        chatCompletionsOptions.Messages.Add(chatMessage);
+    }
 
- // Print the response
- string completion = response.Choices[0].Message.Content;
- Console.WriteLine("Response: " + completion + "\n");
+    // Send request to Azure OpenAI model
+    ChatCompletions response = client.GetChatCompletions(chatCompletionsOptions);
 
+    // Return the response
+    string completion = response.Choices[0].Message.Content;
+
+    // Add generated text to messages list
+    messagesList.Add(new ChatRequestAssistantMessage(completion));
+
+    Console.WriteLine("Response: " + completion + "\n");
 
 } while (true);
