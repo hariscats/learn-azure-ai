@@ -1,0 +1,8 @@
+This function calculates the absolute square of the difference between two numbers.
+
+Parameters:
+- num1: The first number
+- num2: The second number
+
+Returns:
+- The absolute square of the difference between num1 and num2
