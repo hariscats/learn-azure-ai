@@ -10,6 +10,7 @@ This repository contains notes, exercises, and resources for preparing for the A
 - `04-azure-ai-search`: Knowledge mining with Azure AI Search
 - `05-azure-doc-intelligence`: Process docs using OCR.
 - `06-azure-gen-AI-solutions`: Using Azure OpenAI
+- `07-semantic-kernel-demo`: Playing with Semantic Kernel
 
 Each directory may contain:
 - `notes.md`: Summarized notes and key points.
