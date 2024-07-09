@@ -13,7 +13,7 @@ This repository contains notes, exercises, and resources for preparing for the A
  - [x] `07-semantic-kernel-demo`: Playing with Semantic Kernel
  - [x] `Pass AI-102 certification exam`
 
-## Generative (Gen) AI
+## Gen AI
 
 - [ ] `Generative AI for Beginners` - [Gen AI for Beginners GitHub repo](https://github.com/microsoft/generative-ai-for-beginners) - In progress
 - [ ] `Introduction to Intelligent Apps` - [Intro to Intelligent Apps Github repo](https://github.com/Azure/intro-to-intelligent-apps)
