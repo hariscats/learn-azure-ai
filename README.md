@@ -15,7 +15,9 @@ This repository contains notes, exercises, and resources for preparing for the A
 
 ## Generative (Gen) AI
 
-- [ ] `Generative AI for Beginners` - [Gen AI for Beginners GitHub repo](https://github.com/microsoft/generative-ai-for-beginners)
+- [ ] `Generative AI for Beginners` - [Gen AI for Beginners GitHub repo](https://github.com/microsoft/generative-ai-for-beginners) - In progress
 - [ ] `Introduction to Intelligent Apps` - [Intro to Intelligent Apps Github repo](https://github.com/Azure/intro-to-intelligent-apps)
+- [ ] `Semantic Kernel Hands-on` - [Semantic Kernel Demos](https://github.com/microsoft/semantic-kernel/tree/main/python/samples/getting_started)
+- [ ] `OpenAI Cookbook Demos` - [Gen AI Demos](https://github.com/openai/openai-cookbook/tree/main/examples)
 
 
