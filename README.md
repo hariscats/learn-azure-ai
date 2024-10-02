@@ -11,6 +11,7 @@ This repository contains notes, exercises, and resources for preparing for the A
  - [x] `05-azure-doc-intelligence`: Process docs using OCR.
  - [x] `06-azure-gen-AI-solutions`: Using Azure OpenAI
  - [x] `07-semantic-kernel-demo`: Playing with Semantic Kernel
+ - [x] `08-enhancing-LLMs-with-data`: Notes on different approaches for data-augmented LLM patterns
  - [x] `Pass AI-102 certification exam`
 
 ## Gen AI
