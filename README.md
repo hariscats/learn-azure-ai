@@ -20,5 +20,7 @@ This repository contains notes, exercises, and resources for preparing for the A
 - [x] `Introduction to Intelligent Apps` - [Intro to Intelligent Apps Github repo](https://github.com/Azure/intro-to-intelligent-apps)
 - [x] `Semantic Kernel Hands-on` - [Semantic Kernel Demos](https://github.com/microsoft/semantic-kernel/tree/main/python/samples/getting_started)
 - [ ] `AI Foundry Deep Dive` - [AI Foundry Docs](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio) - In progress
+- [ ] `Hands-on LLMs book` - [O'Reilly book](https://www.llm-book.com/) - In progress
+
 
 
